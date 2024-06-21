@@ -16,6 +16,10 @@
 
 `npx shadcn-ui@latest init`
 
+#### Install Framer Motion:
+
+`npm i framer-motion`
+
 #### Navigate to the project directory and install dependencies:
 
 `npm install`
