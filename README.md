@@ -2,46 +2,47 @@
 
 # 🚧 WORK IN PROGRESS 🚧
 
-## Instructions:
+## INSTRUCTIONS:
+ 
 
-#### Clone the repository:
+### 1.) Clone the repository:
 
 `git clone https://github.com/Jaycelab/Portfolio.git`
 
-#### Install Next.JS and select ESLint / TailWind CSS:
+### 2.) Install Next.JS and select ESLint / TailWind CSS:
 
 `npx create-next-app@latest`
 
-#### Install Shadcn UI:
+### 3.) Install Shadcn UI:
 
 `npx shadcn-ui@latest init`
 
-#### Install Framer Motion:
+### 4.) Install Framer Motion:
 
 `npm i framer-motion`
 
-#### Navigate to the project directory and install dependencies:
+### 5.) Navigate to directory and install dependencies:
 
 `npm install`
 
-#### Start the server:
+### 6.) Start the server:
 
 `npm run dev`
 
-#### Visit `http://localhost:3000/` in your browser.
+### 7.) Visit `http://localhost:3000/` in your browser.
 
-<br>
+<hr>
 
 ### Tech Stacks:
 
-##### React.JS
+#### React.JS
 
-##### Next.JS
+#### Next.JS
 
-##### Tailwind CSS
+#### Tailwind CSS
 
-##### Framer Motion
+#### Framer Motion
 
-##### Shadcn UI
+#### Shadcn UI
 
 </div>
