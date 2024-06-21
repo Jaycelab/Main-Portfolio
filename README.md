@@ -4,21 +4,25 @@
 
 ## Instructions:
 
-### Clone the repository:
+#### Clone the repository:
 
 `git clone https://github.com/Jaycelab/Portfolio.git`
 
-#### Install Next.JS
+#### Install Next.JS and select ESLint / TailWind CSS:
 
-`npx create-next-app@latest` <!--Select ESLint and TailWind CSS-->
+`npx create-next-app@latest`
 
-#### Install Shadcn UI
+#### Install Shadcn UI:
 
 `npx shadcn-ui@latest init`
 
-#### Navigate to the project directory and install dependencies: `npm install`
+#### Navigate to the project directory and install dependencies:
 
-#### Start the server: `npm run dev`
+`npm install`
+
+#### Start the server:
+
+`npm run dev`
 
 #### Visit `http://localhost:3000/` in your browser.
 
