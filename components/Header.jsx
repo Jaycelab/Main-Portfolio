@@ -11,7 +11,7 @@ const Header = () => {
         {/*logo*/}
         <Link href="/">
           <h1 className="text-4xl font-semibold">
-            Jason<span className="text-accent">.</span>
+            Jason<span className="text-accent">.</span>json
           </h1>
         </Link>
 
@@ -24,9 +24,7 @@ const Header = () => {
         </div>
 
         {/*mobile nav*/}
-        <div className="xl:hidden">
-          <MobileNav />
-        </div>
+        <div className="xl:hidden"></div>
       </div>
     </header>
   );
