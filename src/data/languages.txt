@@ -1,0 +1,103 @@
+
+All Languages	Ways to say world
+Albanian	botë	
+Basque	mundua	
+Belarusian	свет [sviet]	
+Bosnian	svijet	
+Bulgarian	свят [svyat]	
+Catalan	món	
+Corsican	mondu	
+Croatian	svijet	
+Czech	svět	
+Danish	verden	
+Dutch	wereld	
+Estonian	maailmas	
+Finnish	maailman-	
+French	monde	
+Frisian	wrâld	
+Galician	mundo	
+German	Welt	
+Greek	κόσμος [kósmos]	
+Hungarian	világ	
+Icelandic	heiminum	
+Irish	domhan	
+Italian	mondo	
+Latvian	pasaulē	
+Lithuanian	pasaulis	
+Luxembourgish	Welt	
+Macedonian	светот [svetot]	
+Maltese	dinja	
+Norwegian	verden	
+Polish	świat	
+Portuguese	mundo	
+Romanian	lume	
+Russian	Мир [mir]	
+Scots Gaelic	saoghal	
+Serbian	свет [svet]	
+Slovak	sveta	
+Slovenian	svetu	
+Spanish	mundo	
+Swedish	värld	
+Tatar	дөнья	
+Ukrainian	світ [svit]	
+Welsh	byd	
+Yiddish	וועלט [velt]
+Armenian	աշխարհ [ashkharh]	
+Azerbaijani	dünya	
+Bengali	বিশ্ব [biśba]	
+Chinese Simplified	世界 [shìjiè]	
+Chinese Traditional	世界 [shìjiè]	
+Georgian	მსოფლიო [msoplio]	
+Gujarati	દુનિયા [duniyā]	
+Hindi	दुनिया [duniya]	
+Hmong	ntiaj teb	
+Japanese	世界	
+Kannada	ಜಗತ್ತು [jagattu]	
+Kazakh	әлем [älem]	
+Khmer	ពិភពលោក	
+Korean	세계 [segye]	
+Kyrgyz	дүйнө [düynö]	
+Lao	ໂລກ [olk]	
+Malayalam	ലോകം [laaakam]	
+Marathi	जग [jaga]	
+Mongolian	ертөнц [yertönts]	
+Myanmar (Burmese)	ကမ္ဘာ [kambhar]	
+Nepali	संसार [sansāra]	
+Odia	ଦୁନିଆ	
+Pashto	نړۍ	
+Punjabi	ਸੰਸਾਰ [sasāra]	
+Sindhi	دنيا	
+Sinhala	ලෝක [lōka]	
+Tajik	дунё	
+Tamil	உலகம் [ulakam]	
+Telugu	ప్రపంచం [prapan̄chaṁ]	
+Thai	โลก	
+Turkish	Dünya	
+Turkmen	dünýä	
+Urdu	دنیا	
+Uyghur	دۇنيا	
+Uzbek	dunyo	
+Vietnamese	Thế giới
+Afrikaans	wêreld	
+Amharic	ዓለም [‘alemi]	
+Chichewa	dziko	
+Hausa	duniya	
+Igbo	uwa	
+Kinyarwanda	isi	
+Sesotho	lefatshe	
+Shona	nyika	
+Somali	aduunka	
+Swahili	dunia	
+Xhosa	ihlabathi	
+Yoruba	aye	
+Zulu	umhlaba
+Cebuano	kalibutan	
+Filipino	mundo	
+Hawaiian	honua	
+Indonesian	dunia	
+Javanese	donya	
+Malagasy	izao tontolo izao	
+Malay	dunia	
+Maori	ao	
+Samoan	lalolagi	
+Sundanese	dunya

@@ -10,7 +10,9 @@ const page = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between">
           {/*Hero Heading*/}
           <div className="text-center xl:text-left">
-            <span className="text-xl">header?</span>
+            <span className="text-xl">Hello </span>
+            <span className="text-xl text-animation">World! </span>
+            <span className="text-xl">🌎</span>
             <h1 className="h1 mb-6">
               Lorem ipsum <br />
               <span className="text-accent"> Magni</span>
