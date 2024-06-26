@@ -2,7 +2,7 @@
   - Adjust profile photo color with background removed**
 
 
-  
+- In Next.js, images will need to be placed inside an image folder in the public directory to be accessible and read as an image element  
 - Main container container mx-auto flex justify-between items-center  
   Nav Container hidden xl: flex items-center gap-8 
   //common tailwind trick to center the nav content and place on the right side of the screen
