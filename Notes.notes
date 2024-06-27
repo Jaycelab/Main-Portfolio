@@ -1,4 +1,5 @@
 - TDL:
+  - Check framer motion cx,cy,r properties? Mobile animation not aligned with profile image
   - Adjust profile photo color with background removed**
 
 
@@ -10,3 +11,27 @@
   npx shadcn-ui@latest init
 
   
+
+  //check code
+    animate={{
+              strokeDasharray: ["15 120 25 25 ", "16 25 92 72", "4 250 22 22"],
+              transition: {
+                delay: 1.5,
+                duration: 2.5,
+                ease: "easeInOut",
+                repeat: Infinity,
+                repeatType: "reverse",
+              },
+              rotate: [120, 360],
+            }}
+
+ animate={{
+              strokeDasharray: ["5 120 25 25", "16 25 92 72", "4 250 22 22 "],
+              rotate: [120, 360],
+            }}
+            transition={{
+              duration: 20,
+              repeat: Infinity,
+              repeatType: "reverse",
+            }}
+
