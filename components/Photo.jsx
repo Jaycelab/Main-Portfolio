@@ -20,16 +20,18 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 3, duration: 0.4, ease: "easeOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute  "
+          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           {/*Profile Photo
           alternative class object-contain*/}
           <Image
             priority
             src="/images/profile-red.png"
-            className="rounded-full"
+            className="rounded-full "
             quality={100}
-            fill
+            width={298}
+            height={298}
+            responsive={true}
             alt=""
           />
         </motion.div>
