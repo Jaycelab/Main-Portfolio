@@ -1,6 +1,8 @@
 - TDL:
+  - Framer Circle:
+  - Implement media query or hooks to change circle on mobile. CX, CY, R values of 253, 253, 250 for desktop and 153, 153, 150 for mobile. (IMPORTANT!)
   - Check framer motion cx,cy,r properties? Mobile animation not aligned with profile image
-  - Adjust profile photo color with background removed**
+- Adjust profile photo color with background removed**
 
 
 - In Next.js, images will need to be placed inside an image folder in the public directory to be accessible and read as an image element  
