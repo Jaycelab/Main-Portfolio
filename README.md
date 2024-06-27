@@ -2,6 +2,10 @@
 
 # 🚧 WORK IN PROGRESS 🚧
 
+### Known Issues:
+
+Profile photo is not properly aligned with framer circle motion animation in mobile view
+
 ## INSTRUCTIONS:
 
 ### 1. Clone the repository:

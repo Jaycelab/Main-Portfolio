@@ -20,18 +20,18 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 3, duration: 0.4, ease: "easeOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[295px] h-[295px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           {/*Profile Photo
           alternative class object-contain*/}
           <Image
             priority
-            src="/images/profile-red.png"
-            className="rounded-full "
+            src="/images/profile.png"
+            className="rounded-full"
             quality={100}
-            width={298}
-            height={298}
-            responsive={true}
+            responsive="true"
+            width="295"
+            height="295"
             alt=""
           />
         </motion.div>
@@ -47,8 +47,8 @@ const Photo = () => {
             cy="153"
             r="150" mobile*/}
           <motion.circle
-            cx="153"
-            cy="153"
+            cx="150"
+            cy="150"
             r="150"
             stroke="#A91717"
             strokeWidth="4"
