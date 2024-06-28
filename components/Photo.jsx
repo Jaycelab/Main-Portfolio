@@ -29,10 +29,8 @@ const Photo = () => {
             src="/images/profile-red.png"
             className="rounded-full"
             quality={100}
-            responsive="true"
-            width="298"
-            zIndex="-10"
-            height="298"
+            width="300"
+            height="300"
             alt=""
           />
         </motion.div>
@@ -51,8 +49,8 @@ const Photo = () => {
             cx="153"
             cy="153"
             r="150"
-            stroke="#a91717"
-            strokeWidth="2.7"
+            stroke="#FFFFFF"
+            strokeWidth="1.2"
             strokeLinecap="round"
             strokeLinejoin="round"
             initial={{ strokeDasharray: "24 10 0 0" }}
