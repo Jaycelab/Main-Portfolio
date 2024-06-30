@@ -1,13 +1,15 @@
 body {
-  justify-content: center;
+  padding-top: 5em;
 }
 
 .typewriter h1 {
+  align-items: center;
   overflow: hidden;
   border-right: 0.15em solid orange;
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: 0.15em;
+  display: inline-block;
+  letter-spacing: 0.7em;
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 

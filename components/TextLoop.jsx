@@ -17,7 +17,7 @@ const loopArr = [
   "반갑다 세상아",
   "Hallo verden",
   "Olá, mundo",
-  "sਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਦੁਨਿਆ 5",
+  "sਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਦੁਨਿਆ",
   "Здравствуй, мир",
   "Kamusta mundo",
   "Hallå världen",
@@ -33,7 +33,7 @@ export default function TextLoop() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const intervalDelayMilliseconds = loopArr[index].length * 300;
+    const intervalDelayMilliseconds = loopArr[index].length * 400;
     const interval = setInterval(() => {
       setIndex((prevIndex) => {
         // reset index if current index is greater than array size
