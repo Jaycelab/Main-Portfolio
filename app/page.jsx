@@ -6,6 +6,8 @@ import { FiDownload } from "react-icons/fi";
 }
 import Links from "@/components/ui/Links";
 import Photo from "@/components/Photo";
+import Stats from "@/components/Stats";
+import TextLoop from "@/components/TextLoop";
 
 const Home = () => {
   return (
@@ -15,8 +17,10 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/*Hero Heading*/}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Hello </span>
-            <span className="text-xl text-animation">World! </span>
+            <TextLoop />
+            {/*<span className="text-xl">Hello </span>
+            <span className="text-xl text-animation">World! </span>*/}
+
             {/*"<span className="text-xl">🌎</span>"*/}
             <h1 className="h1 mb-6">
               Lorem ipsum <br />
@@ -54,6 +58,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/*Stats*/}
+      <Stats />
     </section>
   );
 };

@@ -29,8 +29,8 @@ const Photo = () => {
             src="/images/profile-red.png"
             className="rounded-full"
             quality={100}
-            width="300"
-            height="300"
+            width="298"
+            height="298"
             alt=""
           />
         </motion.div>
@@ -50,7 +50,7 @@ const Photo = () => {
             cy="153"
             r="150"
             stroke="#FFFFFF"
-            strokeWidth="1.2"
+            strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
             initial={{ strokeDasharray: "24 10 0 0" }}
@@ -58,7 +58,7 @@ const Photo = () => {
               strokeDasharray: ["15 120 25 25 ", "16 25 92 72", "4 250 22 22"],
               transition: {
                 delay: 0.3,
-                duration: 2.9,
+                duration: 4.9,
                 ease: "easeInOut",
                 repeat: Infinity,
                 repeatType: "reverse",
