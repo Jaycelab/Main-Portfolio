@@ -4,7 +4,7 @@
 
 ### Known Issues:
 
-Profile photo is not properly aligned with framer circle motion animation in mobile view
+Profile photo is not properly aligned with framer circle motion animation in mobile view&nbsp; \
 Fix animation typing cursor end for Hello World heading
 
 ## INSTRUCTIONS:
