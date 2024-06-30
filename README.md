@@ -4,8 +4,10 @@
 
 ### Known Issues:
 
-Profile photo is not properly aligned with framer circle motion animation in mobile view
+Profile photo is not properly aligned with framer circle motion animation in mobile view&nbsp; \
 Fix animation typing cursor end for Hello World heading
+
+<br>
 
 ## INSTRUCTIONS:
 
@@ -13,23 +15,19 @@ Fix animation typing cursor end for Hello World heading
 
 `git clone https://github.com/Jaycelab/Portfolio.git`
 
-### 2. Install Next.JS and select ESLint / TailWind CSS:
-
-`npx create-next-app@latest`
-
-### 3. Install Shadcn UI:
+### 2. Install Shadcn UI:
 
 `npx shadcn-ui@latest init`
 
-### 4. Install Framer Motion:
+### 3. Install Framer Motion:
 
 `npm i framer-motion`
 
-### 5. Navigate to directory and install dependencies:
+### 4. Navigate to directory and install dependencies:
 
 `npm install`
 
-### 6. Start the server:
+### 5. Start the server:
 
 `npm run dev`
 
@@ -37,7 +35,7 @@ Fix animation typing cursor end for Hello World heading
 
 <hr>
 
-### Tech Stacks:
+### Stacks:
 
 #### React.JS
 
