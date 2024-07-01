@@ -3,8 +3,6 @@
   - Implement media query or hooks to change circle on mobile. CX, CY, R values of 253, 253, 250 for desktop and 153, 153, 150 for mobile. (IMPORTANT!)
   - Check framer motion cx,cy,r properties? Mobile animation not aligned with profile image
 - Adjust profile photo color with background removed**
-
-
 - In Next.js, images will need to be placed inside an image folder in the public directory to be accessible and read as an image element  
 - Main container container mx-auto flex justify-between items-center  
   Nav Container hidden xl: flex items-center gap-8 
@@ -14,7 +12,37 @@
 
   
 
-  //check code
+
+//Circle Motion Animation 
+//Need responsive svg placement for BOTH mobile and desktop. Possibly use conditional rendering or media queries to change cx, cy, r values within motion svg component or main image container (currently set to relative with image path absolute)
+Image props: 
+     width="298"
+     height="298"
+
+         <motion.circle
+            cx="153"
+            cy="153"
+            r="150"
+            stroke="#FFFFFF"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            initial={{ strokeDasharray: "24 10 0 0" }}
+            animate={{
+              strokeDasharray: ["15 120 25 25 ", "16 25 92 72", "4 250 22 22"],
+              transition: {
+                delay: 0.3,
+                duration: 4.9,
+                ease: "easeInOut",
+                repeat: Infinity,
+                repeatType: "reverse",
+              },
+              rotate: [120, 360],
+            }}
+          />
+
+
+//Circle Motion Animation stroke variants
     animate={{
               strokeDasharray: ["15 120 25 25 ", "16 25 92 72", "4 250 22 22"],
               transition: {
@@ -36,4 +64,4 @@
               repeat: Infinity,
               repeatType: "reverse",
             }}
-
+         
