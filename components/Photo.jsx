@@ -29,8 +29,7 @@ const Photo = () => {
             src="/images/profile-red.png"
             className="rounded-full"
             quality={100}
-            width="298"
-            height="298"
+            fill="transparent"
             alt=""
           />
         </motion.div>
@@ -45,27 +44,6 @@ const Photo = () => {
           {/*    cx="153"
             cy="153"
             r="150" mobile*/}
-          <motion.circle
-            cx="153"
-            cy="153"
-            r="150"
-            stroke="#FFFFFF"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            initial={{ strokeDasharray: "24 10 0 0" }}
-            animate={{
-              strokeDasharray: ["15 120 25 25 ", "16 25 92 72", "4 250 22 22"],
-              transition: {
-                delay: 0.3,
-                duration: 4.9,
-                ease: "easeInOut",
-                repeat: Infinity,
-                repeatType: "reverse",
-              },
-              rotate: [120, 360],
-            }}
-          />
         </motion.svg>
       </motion.div>
     </div>
