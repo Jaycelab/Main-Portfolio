@@ -16,7 +16,7 @@ const stats = [
   },
   {
     num: 1110,
-    text: "Total Commits",
+    text: "Commits",
   },
   {
     num: 11,
@@ -38,7 +38,7 @@ const Stats = () => {
                 <CountUp
                   enableScrollSpy={true}
                   end={item.num}
-                  duration={8}
+                  duration={5}
                   delay={3}
                   className="text-3xl xl:text-6xl font-extrabold"
                 />
