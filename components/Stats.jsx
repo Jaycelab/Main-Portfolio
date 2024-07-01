@@ -16,11 +16,11 @@ const stats = [
   },
   {
     num: 1110,
-    text: "Commits",
+    text: "Total Commits",
   },
   {
     num: 11,
-    text: "Projects",
+    text: "Projects Completed",
   },
 ];
 
@@ -40,7 +40,7 @@ const Stats = () => {
                   end={item.num}
                   duration={5}
                   delay={3}
-                  className="text-2xl xl:text-6xl font-extrabold"
+                  className="text-3xl xl:text-6xl font-extrabold"
                 />
                 <p
                   className={`${
