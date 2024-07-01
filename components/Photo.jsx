@@ -5,12 +5,12 @@ import Image from "next/image";
 
 const Photo = () => {
   return (
-    <div className="w-full h-full ">
+    <div className="w-full h-full rlative">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
-          transition: { delay: 1.1, duration: 0.3, ease: "easeIn" },
+          transition: { delay: 0.3, duration: 1.5, ease: "easeIn" },
         }}
       >
         {/*exit*/}
@@ -18,9 +18,9 @@ const Photo = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 3, duration: 0.4, ease: "easeOut" },
+            transition: { delay: 0.3, duration: 1.5, ease: "easeOut" },
           }}
-          className="w-[295px] h-[295px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] xl:w-[506px] h-[298px] xl:h-[506px] mix-blend-lighten absolute"
         >
           {/*Profile Photo
           alternative class object-contain*/}
@@ -40,11 +40,7 @@ const Photo = () => {
           fill="transparent"
           viewBow="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"
-        >
-          {/*    cx="153"
-            cy="153"
-            r="150" mobile*/}
-        </motion.svg>
+        ></motion.svg>
       </motion.div>
     </div>
   );
