@@ -4,10 +4,10 @@
 
 ### Known Issues:
 
-Profile photo is not properly aligned with framer circle motion animation in mobile view&nbsp; \
-Fix animation typing cursor end for Hello World heading \
-Adjust num, text value for stats to fit viewpoint via mobile/tablet. \
-
+*Create breakpoint for image to scale full width & height at L & XL displays\
+*Profile photo is not properly aligned with framer circle motion animation in mobile view&nbsp; \
+*Fix animation typing cursor end for Hello World heading \
+*Adjust num, text value for stats to fit viewpoint via mobile/tablet.
 
 <br>
 
