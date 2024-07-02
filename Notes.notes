@@ -15,11 +15,19 @@
 
 //Circle Motion Animation 
 //Need responsive svg placement for BOTH mobile and desktop. Possibly use conditional rendering or media queries to change cx, cy, r values within motion svg component or main image container (currently set to relative with image path absolute)
+
+<div className="w-full h-full ">//double check if relative is needed
+
+transition: { delay: 1.1, duration: 0.3, ease: "easeIn" },
+transition: { delay: 3, duration: 0.4, ease: "easeOut" },
+
+className="w-[295px] h-[295px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+
 Image props: 
      width="298"
      height="298"
 
-         <motion.circle
+        <motion.circle
             cx="153"
             cy="153"
             r="150"

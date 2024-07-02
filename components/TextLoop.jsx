@@ -5,12 +5,17 @@ import { useState, useEffect } from "react";
 const loopArr = [
   "Hello World",
   "你好世界",
-  "Hej, Verden",
-  "สวัสดีโลก",
-  "Hola mundo",
-  "こんにちは、世界",
-  "Ciao Mondo",
+  "S’mae byd!",
+  "Ahoj Světe!",
+  "नमस्ते दुनिया",
+  "¡Hola mundo!",
+  "Здравей, свят!",
+  "Kamusta mundo!",
+  "Salut lume!",
+  "こんにちは、 世界!",
+  "Ciao Mondo!",
   "반갑다 세상아",
+  "Halló heimur!",
   "שלום עולם",
   "Hallo Welt",
   "Olá, mundo",
@@ -42,7 +47,7 @@ export default function TextLoop() {
 
   return (
     <div className="TextLoop ">
-      <div class="typewriter ">
+      <div className="typewriter">
         <h1 className="text-xl" key={loopArr[index]}>
           {loopArr[index]}
         </h1>
