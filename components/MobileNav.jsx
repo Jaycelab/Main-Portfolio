@@ -11,6 +11,10 @@ const links = [
     path: "/",
   },
   {
+    name: "about",
+    path: "/about",
+  },
+  {
     name: "services",
     path: "/services",
   },
@@ -24,8 +28,6 @@ const links = [
     path: "/contact",
   },
 ];
-
-
 
 const MobileNav = () => {
   const pathname = usePathname();

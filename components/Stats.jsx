@@ -39,7 +39,7 @@ const Stats = () => {
                   enableScrollSpy={true}
                   end={item.num}
                   duration={6}
-                  delay={3}
+                  delay={2}
                   className="text-2xl xl:text-6xl font-extrabold"
                 />
                 <p
