@@ -3,8 +3,10 @@ import "../src/assets/style.css";
 import { useState, useEffect } from "react";
 
 const loopArr = [
-  "Hello World",
-  "你好世界",
+  "Hello World!",
+  "Bonjour le monde!",
+  "नमस्ते दुनिया",
+  "Kamusta mundo",
   "S’mae byd!",
   "Ahoj Světe!",
   "नमस्ते दुनिया",
@@ -15,18 +17,16 @@ const loopArr = [
   "こんにちは、 世界!",
   "Ciao Mondo!",
   "반갑다 세상아",
+  "你好世界",
   "Halló heimur!",
   "שלום עולם",
   "Hallo Welt",
   "Olá, mundo",
   "Привiт, свiт",
-  "Kamusta mundo",
-  "नमस्ते दुनिया",
   "Halo Dunia",
   "Aloha Honua",
   "Salut le Monde",
   "Hallo verden",
-  "Hallå världen",
   "Здравствуй, мир",
 ];
 
