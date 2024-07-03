@@ -34,7 +34,7 @@ export default function TextLoop() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const intervalDelayMilliseconds = loopArr[index].length * 400;
+    const intervalDelayMilliseconds = loopArr[index].length * 500;
     const interval = setInterval(() => {
       setIndex((prevIndex) => {
         // reset index if current index is greater than array size
