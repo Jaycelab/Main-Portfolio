@@ -38,8 +38,8 @@ const Stats = () => {
                 <CountUp
                   enableScrollSpy={true}
                   end={item.num}
-                  duration={6}
-                  delay={2}
+                  duration={7}
+                  delay={3}
                   className="text-2xl xl:text-6xl font-extrabold"
                 />
                 <p

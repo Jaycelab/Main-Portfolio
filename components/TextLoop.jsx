@@ -6,7 +6,7 @@ const loopArr = [
   "Hello World!",
   "Bonjour le monde!",
   "नमस्ते दुनिया",
-  "Kamusta mundo",
+  "Kamusta mundo!",
   "S’mae byd!",
   "Ahoj Světe!",
   "नमस्ते दुनिया",
@@ -46,12 +46,10 @@ export default function TextLoop() {
   });
 
   return (
-    <div className="TextLoop ">
-      <div className="typewriter">
-        <h1 className="text-xl" key={loopArr[index]}>
-          {loopArr[index]}
-        </h1>
-      </div>
+    <div className="typewriter">
+      <h1 className="text-xl " key={loopArr[index]}>
+        {loopArr[index]}
+      </h1>
     </div>
   );
 }

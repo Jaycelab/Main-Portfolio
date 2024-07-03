@@ -1,13 +1,14 @@
 .typewriter h1 {
   align-items: center;
   overflow: hidden;
-
+  delay: 0.5s;
   border-right: 0.15em solid orange;
   white-space: nowrap;
   margin: 0 auto;
+
   display: inline-block;
-  letter-spacing: 0.5em;
-  animation: typing 2.8s steps(30, end), blink-caret 0.5s step-end infinite;
+  letter-spacing: 0.3em;
+  animation: typing 2.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
 @keyframes typing {
@@ -15,10 +16,11 @@
     width: 0;
   }
   to {
-    width: 45%;
+    width: 43%;
   }
 }
 
+,
 @keyframes blink-caret {
   from,
   to {
