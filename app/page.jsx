@@ -1,13 +1,22 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
-{
-  /*Components*/
-}
+/*Components*/
 import Links from "@/components/ui/Links";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 import TextLoop from "@/components/TextLoop";
+
+{
+  /*Pages*/
+}
+import Services from "./services/page";
+import Projects from "./projects/page";
+import Contact from "./contact/page";
+
+{
+  /*Components*/
+}
 
 const Home = () => {
   return (
@@ -60,6 +69,11 @@ const Home = () => {
       </div>
       {/*Stats*/}
       <Stats />
+
+      {/*SPA TEST*/}
+      <Services />
+      <Projects />
+      <Contact />
     </section>
   );
 };

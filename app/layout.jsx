@@ -1,5 +1,6 @@
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import "@aws-amplify/ui-react/styles.css";
 import { ThemeProvider } from "next-themes";
 
 //components
