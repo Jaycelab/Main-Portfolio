@@ -17,10 +17,12 @@ const Header = () => {
         </Link>
 
         {/*desktop nav & hire btn*/}
-        <div className="hidden xl:flex items-center gap-8">
+        <div className="hidden xl:flex items-center gap-8 ">
           <Nav />
           <Link href="mailto:jason.json@hotmail.com">
-            <Button>Let's Connect</Button>
+            <Button className="text-primary hover:bg-white hover:text-accent/90 hover:transition-all duration-500 p-4">
+              Let's Connect
+            </Button>
           </Link>
         </div>
 
