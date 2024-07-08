@@ -54,7 +54,7 @@ const Photo = () => {
               strokeDasharray: ["15 120 25 25 ", "16 25 92 72", "4 250 22 22"],
               transition: {
                 delay: 0.3,
-                duration: 8.9,
+
                 ease: "easeInOut",
                 repeat: Infinity,
                 repeatType: "reverse",
