@@ -6,28 +6,28 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "lorem1",
+    title: "Front-End",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ipsa inventore aliquid, similique voluptas earum.",
     href: "",
   },
   {
     num: "02",
-    title: "lorem2",
+    title: "Back-End",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ipsa inventore aliquid, similique voluptas earum.",
     href: "",
   },
   {
     num: "03",
-    title: "lorem3",
+    title: "Full-Stack",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ipsa inventore aliquid, similique voluptas earum.",
     href: "",
   },
   {
     num: "04",
-    title: "lorem4",
+    title: "Turtle Walker",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ipsa inventore aliquid, similique voluptas earum.",
     href: "",
@@ -56,17 +56,25 @@ const Services = () => {
               >
                 {/*Top section*/}
                 <div className="w-full flex justify-between items-center">
-                  <div className="text-5xl font-extrabold">{service.num}</div>
-                  <Link href={service.href}>
-                    <BsArrowDownRight />
+                  <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
+                    {service.num}
+                  </div>
+                  <Link
+                    href={service.href}
+                    className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45 text-primary hover:text-white"
+                  >
+                    <BsArrowDownRight className="text-3xl" />
                   </Link>
                 </div>
+
                 {/*title*/}
-                <h2>{service.title}</h2>
+                <h2 className="text-[42px] font-bold leading-none text-accent/90 group-hover:text-white transition-all duration-500">
+                  {service.title}
+                </h2>
                 {/*description*/}
-                <p>{service.description}</p>
+                <p className="text-white/90">{service.description}</p>
                 {/*border*/}
-                <div className="border-b border-white/20 w-full"></div>
+                <div className="border-b-2 border-white/50 w-full"></div>
               </div>
             );
           })}
