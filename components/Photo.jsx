@@ -18,13 +18,13 @@ const Photo = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 3.5, duration: 1.5, ease: "easeOut" },
+            transition: { delay: 2.8, duration: 1.5, ease: "easeOut" },
           }}
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           {/*image props*/}
           <Image
-            src="/assets/profile-red.png"
+            src="/assets/ProfileB.jpg"
             priority
             className="rounded-full"
             quality={100}
@@ -46,7 +46,7 @@ const Photo = () => {
             cy="253"
             r="250"
             stroke="#FFFFFF"
-            strokeWidth="3.2"
+            strokeWidth="1.7"
             strokeLinecap="round"
             strokeLinejoin="round"
             initial={{ strokeDasharray: "24 10 0 0" }}
@@ -54,7 +54,7 @@ const Photo = () => {
               strokeDasharray: ["15 120 25 25 ", "16 25 92 72", "4 250 22 22"],
               transition: {
                 delay: 0.3,
-
+                duration: 8.9,
                 ease: "easeInOut",
                 repeat: Infinity,
                 repeatType: "reverse",
