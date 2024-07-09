@@ -24,7 +24,7 @@ const Photo = () => {
         >
           {/*image props*/}
           <Image
-            src="/assets/ProfileB.jpg"
+            src="/assets/profile-pic.jpg"
             priority
             className="rounded-full"
             quality={100}

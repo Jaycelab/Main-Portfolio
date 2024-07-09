@@ -20,7 +20,7 @@ const Header = () => {
         <div className="hidden xl:flex items-center gap-8 ">
           <Nav />
           <Link href="mailto:jason.json@hotmail.com">
-            <Button className="text-primary hover:bg-white hover:text-accent/90 hover:transition-all duration-500 p-4">
+            <Button className="text-white/80 hover:bg-white hover:text-accent/90 hover:transition-all duration-500 p-4">
               Let's Connect
             </Button>
           </Link>
