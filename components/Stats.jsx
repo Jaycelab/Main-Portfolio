@@ -8,7 +8,7 @@ import CountUp from "react-countup";
 const stats = [
   {
     num: 20,
-    text: "Technologies Learned",
+    text: "Techs Learned",
   },
   {
     num: 420,
@@ -16,7 +16,7 @@ const stats = [
   },
   {
     num: 1200,
-    text: "Commits",
+    text: "Total Commits",
   },
   {
     num: 12,
@@ -32,7 +32,7 @@ const Stats = () => {
           {stats.map((item, index) => {
             return (
               <div
-                className="flex-1 flex gap-2 items-center justify-center xl:justify-start bg-secondary/30 p-2 rounded-lg shadow-lg xl:p-4 xl:gap-4 xl:rounded-xl xl:shadow-xl"
+                className="flex-1 flex gap-2 items-center justify-center xl:justify-start md:bg-secondary/30 p-2 rounded-lg shadow-lg xl:p-4 xl:gap-4 xl:rounded-xl xl:shadow-xl"
                 key={index}
               >
                 <CountUp
@@ -40,12 +40,12 @@ const Stats = () => {
                   end={item.num}
                   duration={5}
                   delay={3}
-                  className="text-2xl xl:text-6xl font-extrabold "
+                  className="text-2xl md:text-4xl lg:text-4xl xl:text-6xl font-extrabold "
                 />
                 <p
                   className={`${
-                    item.text.length < 15 ? "max-w-[150px]" : "max-w-[250px]"
-                  } leading-snug text-white/80 text-base`}
+                    item.text.length < 15 ? "max-w-[100px]" : "max-w-[200px]"
+                  } leading-snug text-white/80 text-sm`}
                 >
                   {item.text}
                 </p>
