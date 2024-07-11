@@ -1,0 +1,13 @@
+name: Emoji commit
+on: pull_request
+
+jobs:
+  add-emoji:
+    runs-on: ubuntu-latest
+    steps:
+ 
+
+      - name: Emoji commit
+        uses: nvti/action-emoji@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
