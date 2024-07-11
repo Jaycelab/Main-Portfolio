@@ -39,6 +39,4 @@ Fix animation typing cursor end for Hello World heading \
 
 #### Framer Motion
 
-#### Shadcn UI
-
 </div>
