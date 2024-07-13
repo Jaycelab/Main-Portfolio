@@ -1,5 +1,5 @@
 <div align="center">
-
+   
 # 🚧 WORK IN PROGRESS 🚧
 
 ### Known Issues:
@@ -38,7 +38,5 @@ Fix animation typing cursor end for Hello World heading \
 #### Tailwind CSS
 
 #### Framer Motion
-
-#### Shadcn UI
 
 </div>
