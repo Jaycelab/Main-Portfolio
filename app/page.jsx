@@ -24,12 +24,14 @@ const Home = () => {
             {/*"<span className="text-xl">🌎</span>"*/}
             <h1 className="h1 mb-6">
               Lorem ipsum <br />
-              <span className="text-accent"> Magni</span>
+              <span className="text-accent">Jayce</span>
             </h1>
+
+            {/*"animate roles using array (5)"*/}
             <p className="max-w-[500px] mb-9 text-white/80">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-              error temporibus, deleniti nostrum itaque minima pariatur officia
-              mollitia placeat dolor!
+              a self-taught developer, chartist, chef, photographer, music
+              producer and just an overall curious person who loves to learn and
+              create new things
             </p>
 
             {/*buttons, links*/}
