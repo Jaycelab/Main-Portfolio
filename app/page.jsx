@@ -30,8 +30,8 @@ const Home = () => {
             {/*"animate roles using array (5)"*/}
             <p className="max-w-[500px] mb-9 text-white/80">
               a self-taught developer, chartist, chef, photographer, music
-              producer and overall curious person who loves to learn and create
-              new things
+              producer and overall curious learner that loves to experiment and
+              try new things
             </p>
 
             {/*buttons, links*/}

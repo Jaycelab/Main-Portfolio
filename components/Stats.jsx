@@ -32,7 +32,7 @@ const Stats = () => {
           {stats.map((item, index) => {
             return (
               <div
-                className="flex-1 flex gap-2 items-center justify-center xl:justify-start sm:bg-secondary/30 p-0 sm:p-4 rounded-lg shadow-lg  lg:gap-4 xl:rounded-xl xl:shadow-xl"
+                className="flex-1 flex gap-2 items-center justify-center xl:justify-start sm:bg-secondary/30 p-0 sm:p-4 rounded-lg shadow-lg  lg:gap-4 xl:p-6 xl:rounded-xl xl:shadow-xl"
                 key={index}
               >
                 <CountUp
